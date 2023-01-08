@@ -32,8 +32,8 @@ export default {
 	'themeToggle.useLight': 'Açıq tema',
 	'themeToggle.useDark': 'Tünd tema',
 	// Used in previous/next page links at the bottom of pages
-	'articleNav.nextPage': 'Sonrakı səhifə',
-	'articleNav.prevPage': 'Geri',
+	'articleNav.nextPage': 'Sonrakı',
+	'articleNav.prevPage': 'Əvvəlki',
 	// Used in `<Since>`: Added in: v0.24.0 [NEW]
 	'since.addedIn': 'Əlavə edilib',
 	'since.new': 'Yeni',
