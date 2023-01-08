@@ -1,0 +1,115 @@
+---
+layout: ~/layouts/MainLayout.astro
+title: İlk Addımlar
+description: Astroya sadə bir giriş
+i18nReady: true
+---
+import Button from '../../components/Button.astro'
+import ContributorList from '../../components/ContributorList.astro'
+import PackageManagerTabs from '~/components/tabs/PackageManagerTabs.astro'
+
+
+<h2>Astro nədir?</h2>
+
+Astro **sürətli,** **kontent-fokuslu** vebsaytlar yaratmaq üçün **hamısı birində** **veb-freymvorkdur.**
+
+## Əsas xüsusiyyətlər
+
+- **Komponent Adası:** Daha sürətli vebsaytlar üçün yeni veb arxitekturu.
+- **Server öncəlikli API dizaynı:** İstifadəçilərinizin cihazlarından hidrasiyaları çıxardın.
+- **Default olaraq Sıfır JS:** Artıq sizi yavaşladan həddən artıq JavaScript runtime yoxdur.
+- **Edge-ready:** İstədiyiniz yerə deploy edin, hətta qlobal edge runtimelarından olan Deno və Cloudflare-ə belə.
+- **Özəlləşdirilə bilən:** Tailwind, MDX və seçə biləcəyiniz 100-dən çox inteqrasiya.
+- **UI-agnostic:** React, Preact, Svelte, Vue, Solid, Lit və daha çoxunu dəstəkləyir.
+
+Astronu nəyin xüsusi etdiyini öyrənmək üçün [Niyə məhz Astro](/az/concepts/why-astro/) bölməsinə baxın. ✨
+
+## Astronu brauzerinizdə yoxlayın
+
+[astro.new](https://astro.new/) səhifəsini ziyarət edin və başlamaq üçün onlarca şablondan istədiyinizi seçin. Astronun tam və işləyən versiyasını elə indicə brauzerinizdə yoxlayın.
+
+<div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+  <Button href="https://astro.new/basics?on=stackblitz">Sadə şablonla başlayın</Button>
+  <Button variant="outline" href="https://astro.new/">Bütün şablonlara baxın →</Button>
+</div>
+
+## İlk layihənizə başlayın
+
+ Bizim `create-astro` CLI komandası ilə tam-hazır Astro layihəsi yaradın!
+
+<PackageManagerTabs>
+  <Fragment slot="npm">
+  ```shell
+  # npm ilə yeni layihə yarat
+  npm create astro@latest
+  ```
+  </Fragment>
+  <Fragment slot="pnpm">
+  ```shell
+  # pnpm ilə yeni layihə yarat
+  pnpm create astro@latest
+  ```
+  </Fragment>
+  <Fragment slot="yarn">
+  ```shell
+  # yarn ilə yeni layihə yarat
+  yarn create astro
+  ```
+  </Fragment>
+</PackageManagerTabs>
+
+[Quraşdırma bələdçimizdə](/az/install/auto/) favori paket idarəçinizlə Astronu yükləmək üçün tam təlimatlar var.
+
+
+
+
+## Astro Öyrən
+
+Astro saytının bəzi başlıca konsepsiya nümunələrinə baxın!
+
+📚 Saytınıza [ilk səhifənizi əlavə edin](/az/core-concepts/astro-pages/).
+
+📚 Astronun [proyekt strukturu](/az/core-concepts/project-structure/) barədə oxuyun.
+
+📚 Astronun [fayl-yönümlü routinqi](/az/core-concepts/routing/) haqqında öyrənin.
+
+*... tam API dokumentasiyamızı **İstinadlar** bölməsində tapa bilərsiniz.*
+
+
+## Extend Astro
+
+🧰 Sonrakı layihənizi [hazır tema](https://astro.build/themes/) ilə başlayın.
+
+🧰 Saytınızı rəsmi və icmaya aşıq [pluginlər və komponentlərimiz ilə](https://astro.build/integrations/) özəlləşdirin.
+
+🧰 [Sayt vitrinizmizə](https://astro.build/showcase/) baxmaqla özünüzə ilham alın.
+
+*... [inteqrasiyaların istifadə edilməsi təlimatımıza](/az/guides/integrations-guide/) baxın*.
+
+
+
+## İcmamıza Qatılın
+
+[Astro Discordda](https://astro.build/chat/) bizə qatılaraq dostyana və aktiv kollektivimizdən kömək ala bilərsiniz!
+
+💬 `#introduce-yourself` kanalında özünüzü təqdim edin!
+
+💬 `#support-threads` kanalımızda öz suallarınızı Dəstək Komandamıza ünvanlaya bilərsiniz!
+
+💬 `#showcase` kanalında ən son hazırladığınız layihələri bizimlə bölüşün!
+
+
+## Yeni nə var?
+
+[Astro Bloq](https://astro.build/blog/)
+
+[Astro changelog](https://github.com/withastro/astro/blob/main/packages/astro/CHANGELOG.md)
+
+[Astroya keçirmə təlimatı](/az/migrate/)
+
+
+## Töhvə Verin
+
+Bu dokumentasiya sizə aşağıdakı yardım sevər insanlar tərəfindən təqdim edilir. [Githubda bizə qatılın!](https://github.com/withastro/docs)
+
+<ContributorList githubRepo="withastro/docs" />
