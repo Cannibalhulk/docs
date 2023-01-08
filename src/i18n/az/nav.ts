@@ -8,6 +8,9 @@ export default NavDictionary({
 	'editor-setup': 'Text Redaktorunda Qurmaq',
 	migrate: 'Astroya Keçirmək',
 	
+	// Tutorials
+	tutorials:"Dərslik",
+	'blog-tutorial': 'Bloq hazırlayın',
 
 	// Core Concepts
 	coreConcepts: 'Konsepsiya',
@@ -53,4 +56,7 @@ export default NavDictionary({
 	'reference/directives-reference': 'Şablon Direktivləri',
 	'guides/publish-to-npm': 'NPM Paket Formatı',
 
+
+	// Configuration
+	configuration:'Konfiqurasiya'
 })
